@@ -287,7 +287,7 @@ img {
         /* Скрыть бургер */
     }
 
-    .header-block .container {
+    .body-header .container {
         justify-content: flex-start;
     }
 
@@ -295,25 +295,25 @@ img {
         margin-right: 120px;
     }
 
-    .main-nav-list {
+    .page-nav {
         display: flex;
         /* Показать навигацию в хедере */
     }
 
-    .contacts {
+    .contakt {
         display: block;
         /* Показать контакты в хедере */
         margin-left: auto;
     }
 
-    .contacts-list {
+    .contact-list {
         flex-direction: column;
         gap: 5px;
         align-items: flex-end;
         /* Выравнивание вправо */
     }
 
-    .contacts-link {
+    .contakt-link {
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
@@ -322,7 +322,7 @@ img {
     }
 
     /* --- Hero --- */
-    .hero {
+    .main-page-title {
         padding: 112px 0;
         max-width: 768px;
         /* Убираем, т.к. фон должен тянуться */
@@ -332,7 +332,7 @@ img {
         /* Фон для планшета */
     }
 
-    .hero-title {
+    .main-sektion-title {
         font-size: 56px;
         line-height: 1.07;
         max-width: 496px;
@@ -340,30 +340,30 @@ img {
     }
 
     /* --- Features --- */
-    .features-list {
+    .service-list {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 72px 24px;
         justify-content: flex-start;
     }
 
-    .features-item {
+    .service-list-item {
         flex-basis: calc((100% - 24px) / 2);
         width: auto;
     }
 
-    .features-title {
+    .our-company-title {
         text-align: left;
         font-size: 36px;
         font-weight: 700;
     }
 
-    .features-text {
+    .our-company-text {
         font-weight: 500;
     }
 
     /* --- Team --- */
-    .team-block .container {
+    .team .container {
         width: 552px;
     }
 
@@ -374,7 +374,7 @@ img {
         gap: 64px 24px;
     }
 
-    .team-list-item {
+    .team-name {
         flex-basis: calc((100% - 24px) / 2);
         width: 264px;
     }
@@ -387,14 +387,14 @@ img {
         justify-content: flex-start;
     }
 
-    .portfolio-item {
+    .portfolio-list-item {
         flex-basis: calc((100% - 24px) / 2);
         width: auto;
         max-width: none;
     }
 
     /* --- Footer --- */
-    .footer-block .container {
+    .footer-class .container {
         width: 552px;
         flex-direction: row;
         flex-wrap: wrap;
@@ -403,8 +403,8 @@ img {
         gap: 72px 24px;
     }
 
-    .footer-block-logo,
-    .footer-block-icon {
+    .footer-about,
+    .footer-social {
         text-align: left;
         width: auto;
         max-width: 264px;
@@ -429,17 +429,17 @@ img {
         align-items: flex-start;
     }
 
-    .footer-subscribe-label {
+    .form-label-email {
         width: 264px;
         max-width: none;
     }
 
-    .footer-input {
+    .footer-form-input {
         width: 264px;
     }
 
     /* --- Modal --- */
-    .contact-form-container {
+    .modal {
         max-width: 408px;
         padding: 72px 24px 24px 24px;
     }
@@ -459,13 +459,13 @@ img {
         margin-right: 76px;
     }
 
-    .contacts-list {
+    .contact-list {
         flex-direction: row;
         /* Контакты в ряд */
         gap: 40px;
     }
 
-    .contacts-link {
+    .contakt-link {
         font-size: 16px;
         /* Стандартный размер */
         line-height: 1.5;
@@ -474,7 +474,7 @@ img {
     }
 
     /* --- Hero --- */
-    .hero {
+    .main-page-title {
         padding: 188px 0;
         max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -483,12 +483,12 @@ img {
         /* Фон для десктопа */
     }
 
-    .hero-title {
+    .main-sektion-title {
         margin-bottom: 48px;
     }
 
     /* --- Features --- */
-    .features-img {
+    .cervice-list-icon {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -500,28 +500,28 @@ img {
         margin-bottom: 8px;
     }
 
-    .features-list {
+    .service-list {
         flex-wrap: nowrap;
         gap: 24px;
         justify-content: space-between;
     }
 
-    .features-item {
+    .service-list-item {
         flex-basis: calc((100% - 3 * 24px) / 4);
     }
 
-    .features-title {
+    .our-company-title {
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
     }
 
-    .features-text {
+    .our-company-text {
         font-weight: 400;
     }
 
     /* --- Team --- */
-    .team-block .container {
+    .team .container {
         width: 1158px;
     }
 
@@ -531,12 +531,12 @@ img {
         justify-content: center;
     }
 
-    .team-list-item {
+    .team-name {
         flex-basis: calc((100% - 3 * 24px) / 4);
         width: 264px;
     }
 
-    .team-text-container {
+    .container-team {
         padding: 32px 16px;
     }
 
@@ -546,26 +546,26 @@ img {
         justify-content: center;
     }
 
-    .portfolio-item {
+    .portfolio-list-item {
         flex-basis: calc((100% - 2 * 24px) / 3);
         width: auto;
     }
 
     /* --- Footer --- */
-    .footer-block .container {
+    .footer-class .container {
         width: 1158px;
         flex-wrap: nowrap;
         gap: 0;
         align-items: baseline;
     }
 
-    .footer-block-logo {
+    .footer-about {
         margin-right: 120px;
         width: 264px;
         text-align: left;
     }
 
-    .footer-block-icon {
+    .footer-social {
         margin-right: 80px;
         width: auto;
         text-align: left;
@@ -581,7 +581,7 @@ img {
         width: auto;
     }
 
-    .footer-subscribe-label {
+    .form-label-email {
         width: 264px;
     }
 }
