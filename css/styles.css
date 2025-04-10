@@ -359,7 +359,7 @@ img {
 .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/img-mobile/people-office.jpg);
+        url(../images/img-mobile/people-office-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1107,7 +1107,7 @@ img {
         max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people-office-table.jpg);
+            url(../images/img-tablet/people-office-table.jpg);
     }
 
     @media (min-resolution: 2x) {
